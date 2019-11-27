@@ -33,6 +33,7 @@ class EmployeeEdit extends Component {
   positiveCallback = () => {
     const {employeeData, DELETE_EMPLOYEE} = this.props;
     const {uid} = employeeData;
+    const qwe = [];
     DELETE_EMPLOYEE(uid);
     this.setState({visible: false});
   };
