@@ -2,7 +2,6 @@ import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
 
 const BusinessDetails = ({data}) => {
-  console.log('data: ', data);
   return (
     <View>
       <Image source={{uri: data.image_url}} style={styles.image} />
