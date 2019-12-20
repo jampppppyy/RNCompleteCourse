@@ -9,7 +9,7 @@ import {ScrollView} from 'react-native-gesture-handler';
 const SearchScreen = () => {
   const [query, setQuery] = useState('');
   const [searchApi, results, errorMsg, isLoading] = useBusiness();
-  console.log('results: ', results);
+  // console.log('results: ', results);
 
   const filterByPrice = price => {
     return results.filter(result => result.price === price);
